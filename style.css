@@ -1,43 +1,70 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(153, 204, 255);
-    text-align: center;
-}
-.title{
-    margin: 20px;
-}
-input{
-    border: 1px solid #dedede;
-    border-radius: 4px;
-    font-size: 14px;
-    padding: 8px 10px;
-    margin: 0;
-    width: 20%;
-}
-.search-btn{
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: 2px solid rgb(0, 51, 204);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(153, 204, 255);
+  text-align: center;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    padding: 30px;
-  }
+.title {
+  margin: 20px;
+}
 
-  .country-card {
-    text-align: center;
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: rgb(102, 153, 255,0.5);
-  }
+input {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 8px 10px;
+  margin: 0;
+  width: 20%;
+}
 
-  .country-card img {
-    width: 100%;
-    height: auto;
-    border: 2px solid #dedede;
-  }
+.search-btn {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 51, 204);
+}
+
+.result-container {
+  background-color: #ffffff;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+  margin: 2px auto;
+}
+
+.result-container .flag-img {
+  display: block;
+  width: 45%;
+  min-width: 7.5rem;
+  margin: 1.8rem auto 1.2rem auto;
+  border: 1px solid #222a43;
+}
+
+.result-container h2 {
+  font-weight: 600;
+  color: #222a43;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 1.8rem;
+}
+
+.data-wrapper {
+  margin-bottom: 1rem;
+  letter-spacing: 0.3px;
+}
+
+.result-container h4 {
+  display: inline;
+  font-weight: 500;
+  color: #222a43;
+}
+
+.result-container span {
+  color: #5d6274;
+}
+
+.result-container h3 {
+  text-align: center;
+}
